@@ -42,7 +42,7 @@ server.get('/find/:username', (req, res, next) => {
     });
 });
 
-server.listen(3001, 'localhost', function(){
+server.listen(3001, 'https://www.scottkrohn.com', function(){
     console.log(server.name + ' listening at ' + server.url);
 });
 
